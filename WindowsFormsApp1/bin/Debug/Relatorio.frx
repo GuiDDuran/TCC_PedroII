@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Report ScriptLanguage="CSharp" ReportInfo.Created="11/29/2022 09:34:39" ReportInfo.Modified="12/18/2022 18:57:34" ReportInfo.CreatorVersion="2019.2.14.0">
+  <Dictionary/>
+  <ReportPage Name="Page1" Watermark.Font="Arial, 60pt">
+    <ReportTitleBand Name="ReportTitle1" Width="718.2" Height="47.25">
+      <TextObject Name="Text12" Left="236.25" Top="9.45" Width="255.15" Height="28.35" Text="Prontuário do Paciente" HorzAlign="Justify" Font="Malgun Gothic, 16pt, style=Bold"/>
+    </ReportTitleBand>
+    <PageHeaderBand Name="PageHeader1" Top="51.25" Width="718.2" Height="28.35">
+      <TextObject Name="NomePac" Left="236.25" Width="340.2" Height="28.35" HorzAlign="Justify" Font="Malgun Gothic, 12pt, style=Bold"/>
+      <TextObject Name="NomePaciente" Left="9.45" Width="207.9" Height="28.35" Text="Nome do Paciente" HorzAlign="Justify" Font="Malgun Gothic, 14pt"/>
+    </PageHeaderBand>
+    <DataBand Name="Data1" Top="83.6" Width="718.2" Height="264.6">
+      <TextObject Name="NomeProf" Left="18.9" Top="47.25" Width="207.9" Height="28.35" Text="Nome do Profissional:" HorzAlign="Justify" Font="Malgun Gothic, 14pt"/>
+      <TextObject Name="txtNomeProf" Left="255.15" Top="47.25" Width="236.25" Height="28.35" HorzAlign="Justify" Font="Malgun Gothic, 12pt"/>
+      <TextObject Name="NomeServ" Left="18.9" Top="85.05" Width="207.9" Height="28.35" Text="Serviço:" HorzAlign="Justify" Font="Malgun Gothic, 14pt"/>
+      <TextObject Name="txtServico" Left="255.15" Top="85.05" Width="236.25" Height="28.35" HorzAlign="Justify" Font="Malgun Gothic, 12pt"/>
+      <TextObject Name="Pagamento" Left="18.9" Top="122.85" Width="207.9" Height="28.35" Text="Forma de Pagamento:" HorzAlign="Justify" Font="Malgun Gothic, 14pt"/>
+      <TextObject Name="DataSessao" Left="18.9" Top="9.45" Width="207.9" Height="28.35" Text="Data da Sessão:" HorzAlign="Justify" Font="Malgun Gothic, 14pt"/>
+      <TextObject Name="obs" Left="18.9" Top="160.65" Width="207.9" Height="28.35" Text="Observação:" HorzAlign="Justify" Font="Malgun Gothic, 14pt"/>
+      <TextObject Name="txtPagamento" Left="255.15" Top="122.85" Width="236.25" Height="28.35" HorzAlign="Justify" Font="Malgun Gothic, 12pt"/>
+      <TextObject Name="txtDataSessao" Left="255.15" Top="9.45" Width="236.25" Height="28.35" Format="Date" Format.Format="d" HorzAlign="Justify" Font="Malgun Gothic, 12pt"/>
+      <TextObject Name="txtObservacao" Left="255.15" Top="160.65" Width="236.25" Height="75.6" HorzAlign="Justify" Font="Malgun Gothic, 12pt"/>
+      <LineObject Name="Line1" Top="245.7" Width="708.75"/>
+    </DataBand>
+    <PageFooterBand Name="PageFooter1" Top="352.2" Width="718.2" Height="18.9"/>
+  </ReportPage>
+</Report>
